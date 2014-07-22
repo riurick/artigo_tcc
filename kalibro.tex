@@ -1,0 +1,69 @@
+\documentclass[10pt, conference, compsocconf]{IEEEtran}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[brazilian]{babel}
+\usepackage{verbatim}
+\usepackage{scalefnt}
+\usepackage{xcolor}
+\usepackage{ulem}
+\usepackage{type1cm}
+\usepackage{url}
+\usepackage{subfigure}
+\usepackage{courier}
+\newcommand{\TODO}[1]{{\color{red}\textbf{\uwave{#1}}}}
+
+\usepackage[pdftex]{graphicx}
+\DeclareGraphicsExtensions{.png}
+
+\title{Kalibro Metrics: a multi-repository and multi-language source
+code analysis tool}
+
+\author{
+	\IEEEauthorblockN{Carlos Morais$^1$, Paulo Meirelles$^1$, Vin\'icius Daros$^1$, Fabio Kon$^1$}
+	\IEEEauthorblockA{
+		$^1$Department of Computer Science\\
+		Institute of Mathematics and Statistics\\
+		University of S\~ao Paulo, Brazil\\
+		\{morais, paulormm, vkdaros, fabio.kon\}@ime.usp.br
+	}
+	
+\and
+
+	\IEEEauthorblockN{Carlos Santos Jr.$^1$$^,$$^2$}
+	\IEEEauthorblockA{
+		$^2$Horizon Institute\\
+		University of Nottingham, United Kingdom\\
+		carlos.denner@nottingham.ac.uk
+	}
+
+}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+\normalem
+\def\UrlFont{\tt\footnotesize}
+\maketitle
+
+\input{01-abstract}
+
+\IEEEpeerreviewmaketitle
+
+%-------------------------------------------------------------------------------
+
+\input{02-introduction}
+
+\input{03-projeto}
+
+\input{04-arquitetura}
+
+\input{05-metodologia}
+
+\input{06-equipe}
+
+\input{07-final}
+
+%-------------------------------------------------------------------------------
+
+\bibliographystyle{IEEEtran}
+\bibliography{myReferences}
+\end{document}

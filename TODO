@@ -1,0 +1,69 @@
+Revisao comentada do paper:
+http://ietherpad.com/zG6H0h9m2x
+-------------------------------
+
+Introducao
+
+- deixar o uso das métricas mais acessível
+
+
+Trabalhos Relacionados
+- Existem outras ferramentas multi-linguagens
+- IMPORTANTE: Investigar melhor o uso de métricas de código-fonte (métricas de software)
+
+Metodologia
+- Definicao dos intervalos?
+- Método para definir os intervalos: não vamos definir os intervalos como meta final,
+mas sim criar um ambiente para que eles possam ser definidos, discutidos, validados,
+e sistematizados em rede.
+- A reputação de quem propor uma configuração possivelmente terá
+um peso quando os usuário escolherem quais configurações de intervalos
+irão associar aos seus projetos (software livre, wikepedia etc etc são os exemplos)
+
+Ideia da Ferramenta
+- Por que fizemos a Kalibro?
+- O que tem inovação?
+- Por que as pessoas devem usar?
+- Como ela pode auxíliar pesquisas na área
+
+Funcionalidades
+
+- Web service (avaliar uma quantidade grande de projetos)
+- Configuração
+* Explorar mais a tela de resultados (a interpretação dos resultados)
+
+Arquitetura
+
+- Multi-Repositório
+- Suportar diferentes ferramentas
+
+* Proposta de Estudo de Casos (casar com projetos avaliados pelo Paulo)
+
+-----
+
+Category, project, info source, mostly written in, ~ LOC --
+
+Browser, Chrome, http://www.ohloh.net/p/chrome, C++/C, 2,365,985 + 2,554,362
+Browser, Firefox, http://www.ohloh.net/p/firefox, C++/C, 3,532,979 + 1,829,172
+
+Database, Postgres, http://www.ohloh.net/p/postgres, C, 858,875
+Database, Mysql, http://www.ohloh.net/p/mysql, C/C++, 921,160 + 687,614
+
+Multimedia, MPlayer, http://www.ohloh.net/p/mplayer, C, 438,540
+Multimedia, VLC, http://www.ohloh.net/p/vlc, C/C++, 494,367 + 131,172
+
+IDE, Eclipse, http://www.ohloh.net/p/eclipse, Java, 8,569,710
+IDE, Netbeans, http://www.ohloh.net/p/netbeans, Java, 61,241,725
+
+Text Editor, Write LibreOffice, http://www.ohloh.net/p/libreoffice, C++, 8,225,948
+Text Editor, AbiWord, http://www.ohloh.net/p/abiword, C++, 639,461
+
+Instant Messaging, Pidgin, http://www.ohloh.net/p/pidgin, C, 526,079
+Instant Messaging, Empathy, http://www.ohloh.net/p/empathy, C, 119,341
+
+-----
+
+Estudos de Caso (Trabalhando com  Kalibro)
+- Explicar algumas métricas já como o usuário trabalharia na Kalibro
+- Propor as configurações para C, C++ e Java (talvez retirar o C, ficando apenas no escopo da orientação a objetos)
+- Visão do "especialista" X "usuário"

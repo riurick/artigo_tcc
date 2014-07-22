@@ -1,0 +1,55 @@
+\section{Testes}
+\label{sec:testes}
+
+Para ~\cite{cotter1995} a automação de testes é uma prática ágil, eficaz e de baixo custo para melhorar
+a qualidade dos sistemas de software. No entanto utilizar testes automatizados 
+como uma premissa básica do desenvolvimento é um fenômeno relativamente recente, 
+com início em meados  da década de 1990. Além do fato de ser uma técnica bastante utilizada pelas metodologias ágeis
+de desenvolvimento.
+
+Os testes automatizados afetam diretamente a qualidade dos sistemas de software,
+portanto, agregam valor  ao produto final, mesmo que os artefatos adicionais
+produzidos não sejam visíveis para os usuários finais dos sistemas~\cite{bernardo2011}.
+Esses testes podem ser divididos em diversos tipos, o que facilita a manutenção 
+dos mesmos:
+
+\begin{enumerate}
+
+\item \textbf{Testes de unidade:} testes de correção responsável por testar os 
+menores trechos de código de um sistema que possui um comportamento definido e 
+nomeado~\cite{bernardo2011}.
+%
+Normalmente, esse teste é associado a funções para linguagens procedimentais e métodos em linguagens orientadas a objetos.
+
+\item \textbf{Testes funcionais:} testes que tem como objetivo verificar a eficiência
+dos componentes de um sistema~\cite{molinari2003}.
+
+\item \textbf{Testes de aceitação:} são testes de correção e validação, idealmente 
+especificados por clientes ou usuários finais do sistema para verificar se um 
+módulo funciona como foi especificado~\cite{martin2005}.
+Testes de aceitação devem utilizar linguagem próxima da natural para evitar 
+problemas de interpretação e de ambiguidades~\cite{cunningham2005}.
+
+\end{enumerate}
+Desenvolvimento dirigido por testes, TDD \textit{(Test-Driven Develepment)}, 
+é uma técnica de desenvolvimento de software que se dá pela repetição disciplinada 
+de um ciclo curto de passos de implementação de testes e do sistema~\cite{koskela2007}.
+%
+O ciclo curto de passos definidos por TDD cria uma dependência forte entre codificação 
+e testes, o que favorece e facilita a criação de sistemas com alta testabilidade~\cite{bernardo2011}. 
+%
+
+Desenvolvimento dirigido por comportamento \textit{(BDD - Behavior Driven Development)} 
+é uma prática que recomenda o mesmo ciclo de desenvolvimento de TDD, contudo, induzindo 
+a utilização de uma linguagem ubíqua entre cliente e equipe de desenvolvimento, substituindo termos como assert, \textit{assert, test case, test suite} por termos 
+mais comuns ao cliente, como \textit{should, context, specification}~\cite{bernardo2011}.
+Embora seja principalmente uma ideia de como um processo de desenvolvimento de 
+software deve ser gerenciado, a prática do BDD assume a utilização de ferramentas 
+como suporte para o desenvolvimento de software~\cite{haring2011}. O BDD utiliza 
+essas ferramentas para que os testes tenham como ponto de partida o comportamento 
+das funcionalidade do sistema.
+
+
+Testes automatizados devem ser desenvolvidos com prioridade, buscando um rápido 
+\textit{feedback}, contribuindo assim com a melhoria do sistema. Para isso é 
+necessário que os cenários de testes estejam bem definidos junto à equipe.
