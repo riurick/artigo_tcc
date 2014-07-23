@@ -30,24 +30,10 @@ A.~A. Vicente, ``Definição e gerenciamento de métricas de teste no contexto
 A.~P. Santos, ``Aplicação de práticas de usabilidade ágil em software
   livre,'' 2012.
 
-\bibitem{stallman2001}
-\BIBentryALTinterwordspacing
-R.~M. Stallman, ``Free software: Freedom and cooperation,'' 2001. [Online].
-  Available: \url{http://www.gnu.org/events/rms-nyu-2001-transcript.txt}
-\BIBentrySTDinterwordspacing
-
-\bibitem{nerur2005}
-S.~Nerur, R.~Mahapatra, and G.~Mangalaraj, \emph{Challenges of migrating to
-  agile methodologies}, 2005.
-
 \bibitem{corbucci2011}
 H.~Corbucci, ``M{\'e}todos {\'a}geis e software livre: um estudo da
   rela{\c{c}}{\~a}o entre estas duas comunidades,'' Ph.D. dissertation,
   Universidade de S{\~a}o Paulo, 2011.
-
-\bibitem{cotter1995}
-M.~Potel and S.~Cotter, \emph{Inside Taligent Technology}.\hskip 1em plus 0.5em
-  minus 0.4em\relax Taligent Press, 1995.
 
 \bibitem{bernardo2011}
 \BIBentryALTinterwordspacing
@@ -68,18 +54,10 @@ R.~C. Martin, ``The test bus imperative: Architectures that support automated
   \url{http://www.martinfowler.com/ieeeSoftware/testBus.pdf}
 \BIBentrySTDinterwordspacing
 
-\bibitem{cunningham2005}
-R.~Mugridge and W.~dCunningham, \emph{Fit for Developing Software: Framework
-  for Integrated Tests}, 2005.
-
 \bibitem{koskela2007}
 L.~Koskela, \emph{Test Driven: Pratical TDD and Acceptance TDD for Java
   Developers}.\hskip 1em plus 0.5em minus 0.4em\relax Manning Publications,
   2007.
-
-\bibitem{haring2011}
-R.~Haring, ``Behavior driven development: Beter dan test driven development,''
-  2011.
 
 \bibitem{preece2007}
 J.~Preece, Y.~Rogers, and H.~Sharp, \emph{Design de Interação: Além do homem
@@ -95,12 +73,5 @@ D.~Norman, \emph{O design do dia-a-dia}.\hskip 1em plus 0.5em minus 0.4em\relax
 \bibitem{travis2013}
 t.~Lowdermilk, \emph{Design Centrado no Usuário: Um guia para o
   desenvolvimento de aplicativos amigáveis}, 2013.
-
-\bibitem{barbosa2008estrategia}
-D.~F. Barbosa, E.~S. Furtado, and A.~S. Gomes, ``Uma estratégia de apoio à
-  institucionalização da usabilidade em ambientes de desenvolvimento ágil,''
-  in \emph{Proceedings of the VIII Brazilian Symposium on Human Factors in
-  Computing Systems}.\hskip 1em plus 0.5em minus 0.4em\relax Sociedade
-  Brasileira de Computação, 2008, pp. 214--223.
 
 \end{thebibliography}
