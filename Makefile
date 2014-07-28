@@ -1,4 +1,4 @@
-TARGET=kalibro
+TARGET=usabilidade-testesAutomatizados
 
 all: $(TARGET).tex
 	pdflatex $(TARGET).tex
